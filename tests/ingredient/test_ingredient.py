@@ -52,7 +52,7 @@ def test_ingredient():
 
     ingredient_x_name = "ovo"
     ingredient_x = Ingredient(ingredient_x_name)
-    ingredient_x_repr = f"Ingredient ('{ingredient_x_name}')"
+    ingredient_x_repr = f"Ingredient('{ingredient_x_name}')"
     assert ingredient_x_repr == repr(ingredient_x)
     assert ingredient_x_repr != repr(ingredient_any)
     assert ingredient_x_repr != repr(ingredient)
