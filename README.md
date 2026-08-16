@@ -1,76 +1,76 @@
 # 🍝 🦐 Restaurant Orders 🍛 🥘
 
-Bem-vindo ao repositório do projeto **Restaurant Orders**, uma ferramenta de construção de cardápios para o Restaurante **Restaurant Orders**! Este projeto foi desenvolvido como parte de um curso, com foco na prática de habilidades essenciais em programação e desenvolvimento de software.
+Welcome to the **Restaurant Orders** project repository, a menu-building tool for the **Restaurant Orders** restaurant! This project was developed as part of a course, focused on practicing essential programming and software development skills.
 
 ---
 
-## 📝 Sobre o Projeto
+## 📝 About the Project
 
-O **Restaurant Orders** é uma aplicação que ajuda o restaurante a gerar cardápios personalizados, considerando possíveis restrições alimentares e a disponibilidade dos ingredientes em estoque. Atualmente, o restaurante realiza a gestão de receitas e estoque através de arquivos CSV, o que torna o processo ineficiente. Este projeto busca otimizar essa gestão e oferecer uma solução prática e eficiente.
+**Restaurant Orders** is an application that helps the restaurant generate personalized menus, taking into account possible dietary restrictions and the availability of ingredients in stock. Currently, the restaurant manages recipes and inventory through CSV files, which makes the process inefficient. This project aims to optimize this management and offer a practical and efficient solution.
 
-Você encontrará neste projeto:
+In this project you will find:
 
-- Classes para mapear pratos, receitas e ingredientes.
-- Funcionalidades para gerar cardápios personalizados.
-- Um sistema para gerenciar o estoque de ingredientes.
-- Testes automatizados para garantir a qualidade do código.
-
----
-
-## 🚵 Habilidades Exercitadas
-
-Durante o desenvolvimento deste projeto, as seguintes habilidades foram exercitadas:
-
-- **Uso de Hashmaps**: Estruturas de dados `Dict` e `Set` no Python.
-- **Testes de Software**: Implementação e execução de testes para garantir o funcionamento correto do código.
-- **Orientação a Objetos**: Design e implementação de classes para organizar a lógica do projeto.
+- Classes to map dishes, recipes, and ingredients.
+- Features to generate personalized menus.
+- A system to manage ingredient inventory.
+- Automated tests to ensure code quality.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🚵 Skills Practiced
 
-O projeto está organizado da seguinte forma:
+During the development of this project, the following skills were practiced:
+
+- **Use of Hashmaps**: `Dict` and `Set` data structures in Python.
+- **Software Testing**: Implementation and execution of tests to ensure the code works correctly.
+- **Object Orientation**: Design and implementation of classes to organize the project's logic.
+
+---
+
+## 📂 Project Structure
+
+The project is organized as follows:
 
 ```plaintext
 📁 data/
-   ├── inventory_base_data.csv  # Dados de estoque base
-   └── menu_base_data.csv       # Dados de cardápio base
+   ├── inventory_base_data.csv  # Base inventory data
+   └── menu_base_data.csv       # Base menu data
 
 📁 src/
-   ├── models/                  # Modelos principais
-   │   ├── dish.py              # Classe para representar pratos
-   │   ├── ingredient.py        # Classe para representar ingredientes
+   ├── models/                  # Core models
+   │   ├── dish.py              # Class representing dishes
+   │   ├── ingredient.py        # Class representing ingredients
    │   └── __init__.py
-   ├── services/                # Serviços principais
-   │   ├── inventory_control.py # Controle de estoque
-   │   ├── menu_builder.py      # Construção de cardápios
-   │   ├── menu_data.py         # Manipulação de dados do cardápio
+   ├── services/                # Core services
+   │   ├── inventory_control.py # Inventory control
+   │   ├── menu_builder.py      # Menu building
+   │   ├── menu_data.py         # Menu data handling
    │   └── __init__.py
-   ├── app.py                   # Ponto de entrada da aplicação
+   ├── app.py                   # Application entry point
    └── __init__.py
 
-📁 tests/                       # Testes automatizados
+📁 tests/                       # Automated tests
    ├── dish/
-   │   ├── test_dish.py         # Testes para a classe Dish
+   │   ├── test_dish.py         # Tests for the Dish class
    │   └── __init__.py
    ├── ingredient/
-   │   ├── test_ingredient.py   # Testes para a classe Ingredient
+   │   ├── test_ingredient.py   # Tests for the Ingredient class
    │   └── __init__.py
    └── __init__.py
 ```
 
 ---
 
-## 🛠️ Como Rodar o Projeto
+## 🛠️ How to Run the Project
 
-1. Clone este repositório:
+1. Clone this repository:
 
     ```bash
     git clone https://github.com/vicentevendramin/restaurant-orders.git
     cd restaurant-orders
     ```
 
-2. Crie e ative um ambiente virtual:
+2. Create and activate a virtual environment:
 
     ```bash
     python -m venv venv
@@ -78,14 +78,14 @@ O projeto está organizado da seguinte forma:
     venv\Scripts\activate     # Windows
     ```
 
-3. Instale as dependências:
+3. Install the dependencies:
 
     ```bash
     pip install -r requirements.txt # Production
     pip install -r dev-requirements.txt # Development
     ```
 
-4. Execute os testes para verificar o funcionamento:
+4. Run the tests to verify everything works:
 
     ```bash
     pytest # Development
